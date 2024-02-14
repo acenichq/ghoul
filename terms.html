@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ghoul [Nsfw bot]</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- you can change the website icon by change the href link -->
+	<link rel="icon" type="image/png" href="https://media.discordapp.net/attachments/1203609450812932118/1207011771580162129/bd6d6f9bc149397a36cc2e312320d6c9_prev_ui.png?ex=65de184f&is=65cba34f&hm=18b238441cc2031f4c6d832cbee445888c7af0628855371b86991287a22ddecb&=&format=webp&quality=lossless&width=502&height=502">
+
+    <link rel="stylesheet" type="text/css" href="./css/coloring.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/txtformatting.css">
+    <link rel="stylesheet" type="text/css" href="./css/shadow.css">
+    <link rel="stylesheet" type="text/css" href="./css/loading.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .jumbotron-d {
+            font-size: 16px;
+            line-height: 1.6;
+            margin: 20px;
+        }
+
+        .jumbotron-d h1 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .jumbotron-d p {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="navbar">
+        <div class="container">
+            <div class="navbar-nav">
+                <div class="navbar-brand">
+                    <!-- You can change it with Image if you want. -->
+                    <span class="navbar-brand-txt"><a class="txt-bold type-1" href="index.html">Ghoul</a></span>
+                </div>
+
+                <span class="navbar-toggler" id="toggler"><i onclick="toggleNavbar(this)" class="fas fa-bars"></i></span>
+
+                <div class="navs" id="navs">
+                    <div class="navs-item notbtn"><a href="index.html" class="txt-uppercase">Home</a></div>
+                    <!-- You can change the href value and the text value -->
+                    <div class="navs-item notbtn">
+                        <a href="#" class="txt-uppercase" onclick="showCommandsImage()">Commands</a>
+                    </div>
+                    
+                    <div class="navs-item notbtn"><a href="https://discord.gg/eqBzaVJQnU" class="txt-uppercase">Support</a></div>
+                    <div class="navs-item notbtn"><a href="https://discord.com/api/oauth2/authorize?client_id=1111502828876341268&permissions=28583006830193&scope=bot" class="txt-uppercase">Invite</a></div>
+                    <div class="navs-item"><a href="#"><button class="btn txt-uppercase shadow-sm">Support Us</button></a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="commandsModal" class="modal">
+        <span class="close" onclick="closeCommandsModal()">&times;</span>
+        <img class="modal-content" id="commandsImage" src="https://media.discordapp.net/attachments/1203609450812932118/1207278058982342707/image_1.png?ex=65df104f&is=65cc9b4f&hm=4ce2f35a9cb486209077d75c646747299f07ad131907cf0494737c47fc63cd59&=&format=webp&quality=lossless&width=1099&height=516">
+    </div>
+    <br>
+    <br>
+    <br>
+    
+
+
+    <div class="jumbotron-d">
+        <h1>Terms and Conditions</h1>
+
+        <p><strong>Welcome to Ghoul,</strong> the Discord bot for mature audiences. Please read these terms and conditions ("Terms") carefully before using the Ghoul bot ("Bot"). By using the Bot, you agree to comply with and be bound by these Terms. If you do not agree to these Terms, you may not use the Bot.</p>
+
+        <h2>1. Age Restriction</h2>
+        <p>Ghoul is intended for adult audiences aged 18 and above. By using the Bot, you confirm that you are at least 18 years old.</p>
+
+        <h2>2. Mature Content</h2>
+        <p>Ghoul may contain mature or explicit content, including text, images, and audio. By using the Bot, you acknowledge and accept the presence of such content.</p>
+
+        <h2>3. User Conduct</h2>
+        <p>You agree to use Ghoul in a responsible and respectful manner. This includes refraining from sharing illegal or inappropriate content and respecting the privacy and rights of others.</p>
+
+        <h2>4. Compliance with Laws</h2>
+        <p>You must comply with all applicable laws and regulations while using Ghoul, including but not limited to laws regarding online conduct, privacy, and adult content.</p>
+
+        <h2>5. Limitation of Liability</h2>
+        <p>The developers, owners, and affiliates of Ghoul shall not be liable for any direct, indirect, incidental, special, or consequential damages arising out of or in any way connected with the use of the Bot.</p>
+
+        <h2>6. Modifications</h2>
+        <p>The developers reserve the right to modify or discontinue Ghoul at any time without prior notice. Continued use of the Bot after any such modifications shall constitute your consent to such changes.</p>
+
+        <h2>7. Termination</h2>
+        <p>The developers reserve the right to terminate or suspend access to Ghoul for any reason without prior notice or liability.</p>
+
+        <h2>8. Contact</h2>
+        <p>For questions or concerns regarding these Terms, please contact Our team.</p>
+
+        <p>By using Ghoul, you acknowledge that you have read, understood, and agree to be bound by these Terms.</p>
+    </div>
+</body>
+</html>

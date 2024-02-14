@@ -1,0 +1,158 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Ghoul [Nsfw bot]</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- you can change the website icon by change the href link -->
+	<link rel="icon" type="image/png" href="https://media.discordapp.net/attachments/1203609450812932118/1207011771580162129/bd6d6f9bc149397a36cc2e312320d6c9_prev_ui.png?ex=65de184f&is=65cba34f&hm=18b238441cc2031f4c6d832cbee445888c7af0628855371b86991287a22ddecb&=&format=webp&quality=lossless&width=502&height=502">
+
+	<!-- css -->
+	<link rel="stylesheet" type="text/css" href="./css/coloring.css">
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+	<link rel="stylesheet" type="text/css" href="./css/txtformatting.css">
+	<link rel="stylesheet" type="text/css" href="./css/shadow.css">
+	<link rel="stylesheet" type="text/css" href="./css/loading.css">
+	<!-- css end -->
+
+	<!-- font awesome -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="on">
+	<div class="loading" id="loading-box">
+		<div class="loading-item"><div class="loading-progress"></div></div>
+	</div>
+
+	<main class="main">
+		<!-- navbar -->
+		<div class="navbar">
+			<div class="container">
+				<div class="navbar-nav">
+					<div class="navbar-brand">
+						<!-- You can change it with Image if you want. -->
+						<span class="navbar-brand-txt"><a class="txt-bold type-1" href="index.html">Ghoul</a></span>
+					</div>
+
+					<span class="navbar-toggler" id="toggler"><i onclick="toggleNavbar(this)" class="fas fa-bars"></i></span>
+
+					<div class="navs" id="navs">
+						<div class="navs-item notbtn"><a href="terms.html" class="txt-uppercase">Terms</a></div>
+						<!-- You can change the href value and the text value -->
+						<div class="navs-item notbtn">
+							<a href="#" class="txt-uppercase" onclick="showCommandsImage()">Commands</a>
+						</div>
+						
+						<div class="navs-item notbtn"><a href="https://discord.gg/eqBzaVJQnU" class="txt-uppercase">Support</a></div>
+						<div class="navs-item notbtn"><a href="https://discord.com/api/oauth2/authorize?client_id=1111502828876341268&permissions=28583006830193&scope=bot" class="txt-uppercase">Invite</a></div>
+						<div class="navs-item"><a href="support.html"><button class="btn txt-uppercase shadow-sm">Support Us</button></a></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="commandsModal" class="modal">
+			<span class="close" onclick="closeCommandsModal()">&times;</span>
+			<img class="modal-content" id="commandsImage" src="https://media.discordapp.net/attachments/1203609450812932118/1207278058982342707/image_1.png?ex=65df104f&is=65cc9b4f&hm=4ce2f35a9cb486209077d75c646747299f07ad131907cf0494737c47fc63cd59&=&format=webp&quality=lossless&width=1099&height=516">
+		</div>
+		<br>
+		<br>
+		<!-- navbar end -->		
+
+		<!-- jumbotron -->
+		<div class="jumbotron">
+			<div class="container">
+				<div class="jumbotron-items">
+					<div class="jumbotron-item">
+						<span class="jumbotron-t">Ghoul bot</span>
+						<p class="jumbotron-d">"🔞 Looking to spice up your Discord server? Look no further! Introducing Ghoul, the ultimate NSFW bot! With tantalizing adult commands and spicy roleplay features, Ghoul brings an adventurous edge to your server. Dare to explore the darker side of Discord with Ghoul today! 🔥💀 #NSFW #GhoulBot"</p>
+						<div class="jumbotron-buttons">
+							<button class="btn" onclick="location.href='#features'">Features</button>
+							<button class="btn blue" onclick="location.href='https://discord.com/api/oauth2/authorize?client_id=1111502828876341268&permissions=28583006830193&scope=bot'">Invite</button>
+						</div>
+					</div>
+					<div class="jumbotron-item">
+						<img src="https://media.discordapp.net/attachments/1203609450812932118/1207011771580162129/bd6d6f9bc149397a36cc2e312320d6c9_prev_ui.png?ex=65de184f&is=65cba34f&hm=18b238441cc2031f4c6d832cbee445888c7af0628855371b86991287a22ddecb&=&format=webp&quality=lossless&width=502&height=502" alt="image">
+					</div>
+				</div>
+			
+			</div>
+		</div>
+		<!-- jumbotron end -->
+		<span class="scroll-down"><i class="fas fa-arrow-down"></i></span>
+	</main>
+
+	<!-- features -->
+	<div class="features-box">
+		<h1 class="features-t" id="features">Explore our features.</h1>
+		<div class="container">
+			<div class="features">
+				<div class="feature">
+					<img class="feature-img" src="https://cdn.discordapp.com/attachments/1203609450812932118/1207014026693845062/image.png?ex=65de1a69&is=65cba569&hm=f4e76810f403778c19bde694ac26c9489fd40724f84a19411cbd9b084dd0f8f7&"></img>
+					<div class="feature-info">
+						<h2 class="feature-info-t">Commands List</h2>
+						<p class="feature-info-d">Indulge in daring fantasies with our ^pussy , ^ass and many more command, allowing for spicy roleplay scenarios that'll ignite your server.</p>
+					</div>
+				</div>
+				<div class="feature">
+					<img class="feature-img" src="https://media.discordapp.net/attachments/1203609450812932118/1207210173647687750/image.png?ex=65ded116&is=65cc5c16&hm=6e9591f42e93bdc0713d9e5d0976f80da9b872a1bb2ec3ad380090be5cc81556&=&format=webp&quality=lossless&width=650&height=480"></img>
+					<div class="feature-info">
+						<h2 class="feature-info-t">Sensual Encounters</h2>
+						<p class="feature-info-d">Experience thrilling encounters with our ^pussy command, where you can explore desires in a mature and controlled environment.</p>
+					</div>
+				</div>
+				<div class="feature">
+					<img class="feature-img" src="https://media.discordapp.net/attachments/1203609450812932118/1207224937811681350/image.png?ex=65deded6&is=65cc69d6&hm=52c8e5900c746009bbaacd838fd76f7663fae296629c19fa4b4c14cdb6139e33&=&format=webp&quality=lossless&width=660&height=467"></img>
+					<div class="feature-info">
+						<h2 class="feature-info-t">Diverse Commands</h2>
+						<p class="feature-info-d">Tailor your NSFW adventures with personalized settings and commands, including favorites like ^pussy and ^ass, as well as enticing ^hentai scenarios, ensuring a unique experience every time.</p>
+					</div>
+				</div>
+				
+		</div>
+	</div>
+
+	
+	
+	<!-- features end -->
+
+	<!-- services -->
+	<div class="services-box">
+		<h1 class="services-t" id="services">We currently services...</h1>
+		<div class="container">
+			<div class="services">
+				<div class="service">
+					<span><i class="fas fa-server"></i> 25 servers</span>
+				</div>
+				<div class="service">
+					<span><i class="fas fa-users"></i> 952 users</span>
+				</div>
+				<div class="service">
+					<span><i class="fas fa-hashtag"></i> 506 channels</span>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- services end -->
+
+	<!-- footer -->
+	<footer class="footer">
+		<div class="container">
+			<ul class="footer-social">
+				
+				
+				<li><a href="https://www.instagram.com/naitik.exe_/"><i class="fab fa-instagram"></i></a></li>
+				<li><a href="https://discord.gg/kpmTtdE8xM"><i class="fab fa-discord"></i></a></li>
+				<li><a href="https://www.youtube.com/channel/UCt5FBx5YaZ7QZmd4sDEJYmw"><i class="fab fa-youtube"></i></a></li>
+			</ul>
+			<p class="website-name">&copy; 2024 Ghoul. All rights reserved.</p>
+
+			
+		</div>
+	</footer>
+	
+	<!-- footer end -->
+
+	<script type="text/javascript" src="./js/script.js"></script>
+</body>
+</html>
